@@ -1,0 +1,145 @@
+
+.logo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+h1, h4, h2{
+    font-family: "Teko", serif;
+    
+}
+
+p {
+    font-family: "Blinker", serif;
+}
+
+.logo button {
+    background-color: #FBC702;
+    color: rgb(0, 0, 0);
+    padding: 15px 63px;
+    margin: 0px 50px;
+    border: none;
+    font-family: "Teko", serif;
+    font-size: 33px;
+    font-optical-sizing: auto;
+}
+
+.logo .title {
+    font-family: "Oxanium", serif;
+    font-size: 38px;
+    margin: 0 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.htable {
+    margin: 0 100px;
+    font-family: "Teko", serif;
+    font-size: 27px;
+}
+
+.menu {
+    background-color: black;
+    font-family: "Teko", serif;
+    font-size: 27px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    color: white;
+    padding: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu ul li:first-child {
+    background-color: #FBC702;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        justify-content: center;
+    }
+
+    .logo .title {
+        font-size: 28px;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .logo button {
+        width: 40%;
+        padding: 10px;
+        font-size: 26px;
+    }
+
+    table {
+        margin: 10px 20px;
+        width: 23%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        padding: 20px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo .title {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .logo button {
+        padding: 12px 20px;
+        font-size: 22px;
+    }
+
+    table {
+        margin: 10px 15px;
+        font-size: 15px;
+    }
+
+    .menu ul li {
+        padding: 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo .title {
+        font-size: 15px;
+        margin: 0 0px;
+    }
+
+    .logo button {
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+
+    table {
+        margin: 10px 15px;
+        font-size: 14px;
+
+    }
+
+    .menu ul li {
+        padding: 15px;
+        font-size: 13px;
+    }
+}
